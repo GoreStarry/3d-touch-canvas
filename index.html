@@ -76,7 +76,7 @@
       var x = lastPoint.x + (Math.sin(angle) * i);
       var y = lastPoint.y + (Math.cos(angle) * i);
 
-      var radgrad = ctx.createRadialGradient(x, y, 0, x, y, rectSize / 3 * (force + 0.2));
+      var radgrad = ctx.createRadialGradient(x, y, 0, x, y, rectSize / 3 * (force + 0.05));
 
       radgrad.addColorStop(0, '#000');
       radgrad.addColorStop(0.3, 'rgba(0,0,0,0.5)');
